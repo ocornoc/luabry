@@ -18,4 +18,4 @@ luabry will return a table of functions when `require`'d. There is a function in
 
 ## License
 
-luabry is licensed under the MIT license. Review [the license](https://github.com/ocornoc/luajrpc/LICENSE) if you'd like.
+luabry is licensed under the MIT license. Review [the license](https://github.com/ocornoc/luajrpc/blob/master/LICENSE) if you'd like.
