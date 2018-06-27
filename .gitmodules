@@ -1,0 +1,3 @@
+[submodule "luajrpc"]
+	path = luajrpc
+	url = https://github.com/ocornoc/luajrpc
