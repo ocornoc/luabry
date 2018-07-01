@@ -29,7 +29,7 @@ local req = lbry.status({
 req.url = "http://localhost:5279"
 req.sink = ltn12.sink.file(io.stdout)
 
--- Safely calls the request and ends up printing the request.
+-- Safely calls the request and ends up printing the resulting JSON-RPC response.
 assert(http.request(req))
 ```
 
