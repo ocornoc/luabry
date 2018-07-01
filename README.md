@@ -1,6 +1,5 @@
 # luabry
 
-luabry is a simple wrapper library around [luajrpc](https://github.com/ocornoc/luajrpc), my JSON-RPC validation utility. To be honest, luabry doesn't actually need luajrpc, but whatever.
 luabry is also an API pseudo-binding to the [LBRY daemon](https://github.com/lbryio/lbry).
 
 
