@@ -63,7 +63,7 @@ local funclist = {
 }
 
 for _,v in pairs(funclist) do
-	luabry[v] = function(id, params)
+	luabry[v] = function(params, id)
 		local body = {
 			jsonrpc = "2.0",
 			method = v,
