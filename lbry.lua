@@ -79,8 +79,8 @@ for _,v in pairs(funclist) do
 			url = "http://localhost:5279",
 			method = "POST",
 			headers = {
-				["Content-Type"]   = "application/json",
-				["Accept"]         = "application/json",
+				["Content-Type"]   = "application/json-rpc",
+				["Accept"]         = "application/json-rpc",
 				["Content-Length"] = jstring:len(),
 			},
 			source = ltn12.source.string(jstring),
