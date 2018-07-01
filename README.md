@@ -8,7 +8,7 @@ Requirements:
 * [lua-cjson](https://github.com/mpx/lua-cjson)
 * [luasocket](https://github.com/diegonehab/luasocket)
 * Lua 5.1
-* LBRY daemon
+* [LBRY daemon](https://lbryio.github.io/lbry/)
 
 ## Usage
 
@@ -20,7 +20,7 @@ local lbry = require "lbry"
 local ltn12 = require "ltn12"
 local http = require "socket.http"
 
--- Sets up the `status` API method call, with the parameters `session_status = true` and the JSON-RPC field `id = 1`.
+-- Sets up the `status` API method call, with the parameters-table `{session_status = true}` and the JSON-RPC field `id = 1`.
 local req = lbry.status({
 	session_status = true,
 }, 1)
