@@ -2,8 +2,10 @@
 
 luabry is an API pseudo-binding to the [LBRY daemon](https://github.com/lbryio/lbry).
 
+<br/>
 
-Requirements:
+####Requirements:
+
 * [lua-cjson](https://github.com/mpx/lua-cjson)
 * [luasocket](https://github.com/diegonehab/luasocket)
 * Lua 5.1
