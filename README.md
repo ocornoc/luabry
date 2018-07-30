@@ -37,4 +37,4 @@ assert(http.request(req))
 
 ## License
 
-luabry is licensed under the MIT license. Review [the license](https://github.com/ocornoc/luajrpc/blob/master/LICENSE) if you'd like.
+luabry is licensed under the MIT license. Review [the license](LICENSE) if you'd like.
