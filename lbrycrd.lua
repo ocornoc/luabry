@@ -118,7 +118,8 @@ local funclist = {
 
 for _,v in pairs(funclist) do
 	luabrycrd[v] = function(params, id, user, pass)
-		user, pass = user or "", pass or ""
+		user = user or ""
+		pass = pass or ""
 		
 		local body = {
 			jsonrpc = "2.0",
