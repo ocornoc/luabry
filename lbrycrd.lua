@@ -139,7 +139,7 @@ for _,v in pairs(funclist) do
 				["Content-Type"]   = "application/json-rpc",
 				["Accept"]         = "application/json-rpc",
 				["Content-Length"] = jstring:len(),
-				["Authentication"] = "Basic " .. mime.b64(user .. ":" .. pass),
+				["Authorization"] = "Basic " .. mime.b64(user .. ":" .. pass),
 			},
 			source = ltn12.source.string(jstring),
 		}
