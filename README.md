@@ -1,6 +1,6 @@
 # luabry
 
-luabry is an API pseudo-binding to the [LBRY daemon](https://github.com/lbryio/lbry).
+luabry is a Lua 5.1 API to the [LBRY daemon](https://github.com/lbryio/lbry) and [lbrycrd daemon](https://github.com/lbry/lbrycrd).
 
 <br/>
 
