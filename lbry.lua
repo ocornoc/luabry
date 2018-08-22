@@ -1,6 +1,6 @@
 local http = require "socket.http"
 local ltn12 = require "ltn12"
-local json = require "cjson"
+local json = require "json"
 local jrpc = require "luajrpc/jrpc"
 local luabry = {}
 
