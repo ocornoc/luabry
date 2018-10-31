@@ -9,7 +9,7 @@ luabry is a Lua 5.1 API to the [LBRY daemon](https://github.com/lbryio/lbry) and
 * [luasocket](https://github.com/diegonehab/luasocket)
 * Lua 5.1
 * [lbrynet-daemon](https://github.io/lbryio/lbry) (for `lbry.lua`)
-* [lbrycrdd](https://github.com/lbry/lbrycrd) (for `lbrycrd.lua`)
+* [lbrycrdd](https://github.com/lbryio/lbrycrd) (for `lbrycrd.lua`)
 
 We include a file `json.lua`, which is from [rxi's json.lua](https://github.com/rxi/json.lua), specifically found [here](https://github.com/rxi/json.lua/blob/master/json.lua). Please send the creator a "thank you". Its license (MIT) is at the top of its file.
 
